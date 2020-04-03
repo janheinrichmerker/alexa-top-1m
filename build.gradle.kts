@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.reimer"
-version = "0.1.0"
+version = "0.2.0"
 
 repositories {
     mavenCentral()
@@ -16,6 +16,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1")
     implementation("dev.reimer:java-ktx:0.1.2")
+    implementation("dev.reimer:domain-ktx:0.2.0")
     implementation("dev.reimer:wayback-api:664e488df4")
 }
 

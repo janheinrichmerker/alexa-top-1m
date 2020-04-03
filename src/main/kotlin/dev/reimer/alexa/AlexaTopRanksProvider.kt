@@ -1,5 +1,6 @@
 package dev.reimer.alexa
 
+import dev.reimer.domain.ktx.Domain
 import dev.reimer.kotlin.jvm.ktx.iterator
 import dev.reimer.kotlin.jvm.ktx.zipped
 import dev.reimer.wayback.api.WaybackApi
@@ -31,7 +32,7 @@ internal class AlexaTopRanksProvider(
     private val file = cacheDir.resolve("top-1m-$timestampString.csv")
     private val zipFile = TOP_1M_URL.path.substringAfterLast('/').removeSuffix(".zip")
 
-    suspend fun get(): Map<String, Long> {
+    suspend fun get(): Map<Domain, Long> {
         if (!file.exists() || !file.isFile) {
             unzipArchive()
         }
