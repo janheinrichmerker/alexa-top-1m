@@ -3,10 +3,11 @@
 
 # 🌐 alexa-top-1m<sup>[α](#status-α)</sup>
 
-Easy access to [Alexa](https://www.alexa.com/topsites/) 
-[top 1M websites](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
+Easy access to the (now archived<sup>1</sup>) Alexa top 1M websites.
 By leveraging the [Internet Archive's Wayback API](https://github.com/reimersoftware/wayback-api), 
 the ranking can be accessed at (almost) any point in time.
+
+<sup>1</sup>Previously available [here](https://www.alexa.com/topsites/) and [here](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip).
 
 ## Gradle Dependency
 
