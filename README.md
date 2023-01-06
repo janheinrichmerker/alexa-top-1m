@@ -1,4 +1,4 @@
-[![GitHub Actions](https://img.shields.io/github/workflow/status/reimersoftware/alexa-top-1m/CI?style=flat-square)](https://github.com/reimersoftware/alexa-top-1m/actions?query=workflow%3A"CI")
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/reimersoftware/alexa-top-1m/ci.yml?branch=master&style=flat-square)](https://github.com/reimersoftware/alexa-top-1m/actions/workflows/ci.yml)
 [![JitPack](https://img.shields.io/jitpack/v/github/reimersoftware/alexa-top-1m?style=flat-square)](https://jitpack.io/#dev.reimer/alexa-top-1m)
 
 # 🌐 alexa-top-1m<sup>[α](#status-α)</sup>
