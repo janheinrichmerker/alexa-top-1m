@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
     implementation("dev.reimer:java-ktx:0.1.3")
     implementation("dev.reimer:domain-ktx:0.2.0")
     implementation("dev.reimer:wayback-api:664e488df4")
